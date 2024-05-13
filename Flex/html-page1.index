@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-page1.css">
+    <script src="https://kit.fontawesome.com/404c7f0674.js" crossorigin="anonymous"></script>
+    <body class="margem"></body>
+    <title>Exercício Flex</title>
+</head>
+<body>
+
+    <p>
+        <i class="fa-regular fa-hand"></i>
+    </p>
+
+    <h1>
+        I'm Taylor a Web Developer with UI & UX skills 
+        who love to build powerful and elegant products 
+        with x years of experience in the tech industry
+        I'm currently working at Lorem Ipsum.
+    </h1>
+
+    <div class="box">
+        <div class="image-with-text">
+          <img src="https://softomaster.com/wp-content/uploads/2021/05/brave-browser-1536x960.png" alt="Imagem 1">
+          <h4>Projeto Flex</h4>
+          <p>António Cunha - 2024</p>
+
+        </div>
+        <div class="image-with-text">
+          <img src="https://softomaster.com/wp-content/uploads/2021/05/brave-browser-1536x960.png" alt="Imagem 2">
+          <h4>Projeto Flex</h4>
+          <p>António Cunha - 2024</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image-with-text">
+          <img src="https://softomaster.com/wp-content/uploads/2021/05/brave-browser-1536x960.png" alt="Imagem 3">
+         
+          <h4>Projeto Flex</h4>
+          <p>António Cunha - 2024</p>
+        </div>
+        <div class="image-with-text">
+          <img src="https://softomaster.com/wp-content/uploads/2021/05/brave-browser-1536x960.png" alt="Imagem 4">
+          <h4>Projeto Flex</h4>
+          <p>António Cunha - 2024</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image-with-text">
+          <img src="https://softomaster.com/wp-content/uploads/2021/05/brave-browser-1536x960.png" alt="Imagem 5">
+          <h4>Projeto Flex</h4>
+          <p>António Cunha - 2024</p>
+        </div>
+        <div class="image-with-text">
+          <img src="https://softomaster.com/wp-content/uploads/2021/05/brave-browser-1536x960.png" alt="Imagem 6">
+          <h4>Projeto Flex</h4>
+          <p>António Cunha - 2024</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
+  

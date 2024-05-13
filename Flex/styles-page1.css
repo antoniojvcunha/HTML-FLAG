@@ -1,0 +1,30 @@
+body {
+    margin: 100px;
+  }
+  
+  .box {
+    display: flex;
+    gap: 60px;
+    flex-shrink: 1;
+    
+  }
+  
+  .image-with-text {
+    flex: 1; /* Faz com que as imagens ocupem espaços iguais na linha */
+    margin-right: 20px; /* Ajuste conforme necessário para adicionar um espaço entre as imagens */
+  }
+  
+  .image-with-text img {
+    max-width: 100%;
+  }
+
+  .image-with-text p  {
+    margin-top: 10px;
+    text-align: left; 
+    font-size: 15px;
+    color: gray;
+  }
+
+ h4 {
+    font-size: 30px;
+ }
