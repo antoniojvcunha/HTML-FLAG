@@ -9,73 +9,64 @@ img{
     overflow: hidden; /* Para evitar que a imagem ultrapasse a margem */
   }
 
-  .boxresumo {
-    display: flex;
-    gap: 150px;
-    margin: 100px;
-  }
-
-  .texto {
- 
-  }
-
-  .fontsize {
-    font-size: 20px;
-    
-  }
-
-.detalhes {
-    width: 4500px;
-  }
- 
-.box-eventos-ligaçoes {
+  .left-right {
     display: flex;
     justify-content: space-between;
+  }
+
+h1 {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+form {
     margin: 100px;
 }
 
- .boxcalendario {
+.nome {
+    display: flex;
+    gap: 50px;
+}
+
+.primeiro-nome {
+    width: 100%;
+}
+
+.segundo-nome {
+    width: 100%;
+}
+
+.email {
+    width: 100%; 
+}
+
+.data-nascimento{
+    width: 100%;
+}
+
+.radio-grupo {
     display: flex;
     flex-direction: column;
-    gap: 20px;
- }
-
-.calendario {
-    display: flex;
-    gap: 15px;
-    border: 1px;
-    border-color: black;
-    border-bottom-style:solid;
 }
 
-.de-ate {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+label {
+    margin-bottom: 10px;
 }
 
-.coluna1 {
+.checkbox-complementos {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    padding-bottom: 100px;
 }
 
-.coluna2 {
-    display: flex;
-    flex-direction: column;
-    font-size: 12px;
+.cor-verde {
+    background-color: rgb(0, 156, 124);
+    width: 100%;
+    height: 50px;
 }
 
-.atividade {
-    font-size: 20px;
-}
-
-i {
-    color: gray;
-}
-
-.mes-inicial {
-    color: green;
+.barra-lateral{
+    margin-right: 100px;
 }
 
 .ligacoes {
@@ -195,7 +186,7 @@ i {
     height: 100px;
 }
 
-.menu-newletter {
+.menu-newsletter {
     background-color:rgb(69, 54, 55);
     display: flex;
     justify-content: space-around;
@@ -208,17 +199,12 @@ i {
   nav ul li a{
     color: white;
     text-align: left;
+    align-content: center;
   }
-  
-  .menu{
-   
-  }
-  
-  .newsletter {
-    
-  }
-  .corverde{
+
+.corverde{
     background-color: greenyellow;
+    width: 100%;
   }
   
   i {
@@ -228,4 +214,14 @@ i {
   .pp {
     color: white;
   }
-  
+
+.content-center {
+    align-content: center;
+}
+
+li {
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+

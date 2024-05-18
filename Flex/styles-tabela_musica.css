@@ -1,0 +1,19 @@
+body{
+    margin: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    border-bottom: 2px solid purple;
+    height: 70px;
+}
+
+.border-right {
+    border-right: 2px solid purple;
+    width: 150px;
+}
